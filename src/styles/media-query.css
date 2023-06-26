@@ -1,0 +1,50 @@
+#media div{
+    padding:  20px;
+}
+#media div:nth-child(1) {
+    background-color: bisque;
+
+}
+
+#media div:nth-child(2) {
+    background-color: blueviolet;
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    #media div:nth-child(1) {
+        color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+#media div:nth-child(2){
+    text-align: start;
+    background-color:plum;
+}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+     #media div:nth-child(1){
+        text-align: start;
+        background-color: aquamarine;
+border: 20px dotted yellow;
+
+ } 
+ #media div :nth-child(2){
+    display: none;
+    text-align: start;
+    background-color:  goldenrod;
+    border: 20px dashed red 
+
+ }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
